@@ -1,0 +1,34 @@
+body {
+    background-image: url(img/Wheel.png);
+    background-size: 1800px 1500px;
+    background-repeat: no-repeat;
+}
+
+.kj thead {
+    color: black;
+}
+
+.kj {
+    background-color: aliceblue;
+    color: darkcyan;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 83%;
+    height: 100%;
+    margin-left: 90px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-top: 30px;
+  }
+  table {
+    padding: 10px;
+  }
+
+  table p {
+    padding-left :3px;
+    padding-right :3px;
+  }
+
+  button {
+    margin-top: 20px;
+    margin-left: 10px;
+  }

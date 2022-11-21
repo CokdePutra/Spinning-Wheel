@@ -1,0 +1,66 @@
+body {
+  background-image: url(img/Wheel.png);
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  font-family: Helvetica, Arial, sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  pointer-events: none;
+}
+#chart {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  top: 0;
+  left: 0;
+}
+#question {
+  position: absolute;
+  width: 900px;
+  height: 80%;
+  top: 0;
+  left: 520px;
+}
+#question h1 {
+  display: inline-block;
+  background-color: aliceblue;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  padding: 0;
+  padding-left: 20px;
+  margin: 0;
+  margin-top: 180px;
+  top: 20%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  float: right;
+  border: none;
+  background-image: linear-gradient(to right,#B1B2FF, #AAC4FF);
+  color: black;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 52px;
+  margin-right: 35px;
+}
+
+a:hover {
+  border-radius: 10px;
+
+}

@@ -1,0 +1,49 @@
+body {
+    /* background-color: lightseagreen; */
+    /* background-image: linear-gradient(to bottom right,#FDFDBD, #C8FFD4, #5da78f, #15687a, #203a71); */
+    background-image: url(img/Wheel.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  .kotak .container h2{
+    padding-top: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .container {
+    font-size: 25px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .15); 
+    backdrop-filter: blur(8px);
+    width: 700px;
+    height: 600px;
+  }
+
+  .soal {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .kotak a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+    border: none;
+    background-image: linear-gradient(to right,#B1B2FF, #AAC4FF);
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .kotak a:hover {
+    border-radius: 10px;
+  
+  }
+  
